@@ -1,39 +1,39 @@
 comparison,variable,label,unit,start_year,end_year,start_value,end_value,source_key,locator
-2020-2021,generation,Generación bruta,GWh,2020,2021,46373.0,40576.2,BEN2021,Comparativo del balance de electricidad; p. 9
-2020-2021,imports,Importación,GWh,2020,2021,0.0,0.0,BEN2021,Comparativo del balance de electricidad; p. 9
-2020-2021,exports,Exportación (magnitud positiva),GWh,2020,2021,28004.8,21719.2,BEN2021,Comparativo del balance de electricidad; p. 9
-2020-2021,own_use,Consumo en centrales y autoconsumo ANDE,GWh,2020,2021,421.8,279.6,BEN2021,Comparativo del balance de electricidad; p. 9
-2020-2021,losses,Pérdidas,GWh,2020,2021,4227.5,4871.3,BEN2021,Comparativo del balance de electricidad; p. 9
-2020-2021,consumption,Consumo final,GWh,2020,2021,13718.9,13706.1,BEN2021,Comparativo del balance de electricidad; p. 9
-2021-2022,generation,Generación bruta,GWh,2021,2022,40576.2,43880.8,BEN2022,Comparativo del balance de electricidad; p. 14
-2021-2022,imports,Importación,GWh,2021,2022,0.0,0.0,BEN2022,Comparativo del balance de electricidad; p. 14
-2021-2022,exports,Exportación (magnitud positiva),GWh,2021,2022,21719.2,23955.1,BEN2022,Comparativo del balance de electricidad; p. 14
-2021-2022,own_use,Consumo en centrales y autoconsumo ANDE,GWh,2021,2022,279.6,299.7,BEN2022,Comparativo del balance de electricidad; p. 14
-2021-2022,losses,Pérdidas,GWh,2021,2022,4871.3,5193.3,BEN2022,Comparativo del balance de electricidad; p. 14
-2021-2022,consumption,Consumo final,GWh,2021,2022,13706.1,14432.6,BEN2022,Comparativo del balance de electricidad; p. 14
-2022-2023,generation,Generación bruta,GWh,2022,2023,44109.6,53041.7,BEN2023,Cuadro 3; p. 28
-2022-2023,imports,Importación,GWh,2022,2023,0.0,0.0,BEN2023,Cuadro 3; p. 28
-2022-2023,exports,Exportación (magnitud positiva),GWh,2022,2023,23955.1,30389.8,BEN2023,Cuadro 3; p. 28
-2022-2023,own_use,Consumo en centrales y autoconsumo ANDE,GWh,2022,2023,299.7,355.2,BEN2023,Cuadro 3; p. 28
-2022-2023,losses,Pérdidas,GWh,2022,2023,5193.3,6303.2,BEN2023,Cuadro 3; p. 28
-2022-2023,consumption,Consumo final,GWh,2022,2023,14661.5,15993.6,BEN2023,Cuadro 3; p. 28
-2023-2024,generation,Generación bruta,GWh,2023,2024,53041.7,42676.2,BEN2024,Cuadro 3; p. 48
-2023-2024,imports,Importación,GWh,2023,2024,0.0,0.0,BEN2024,Cuadro 3; p. 48
-2023-2024,exports,Exportación (magnitud positiva),GWh,2023,2024,30389.8,15998.6,BEN2024,Cuadro 3; p. 48
-2023-2024,own_use,Consumo en centrales y autoconsumo ANDE,GWh,2023,2024,355.2,293.4,BEN2024,Cuadro 3; p. 48
-2023-2024,losses,Pérdidas,GWh,2023,2024,6303.2,6940.1,BEN2024,Cuadro 3; p. 48
-2023-2024,consumption,Consumo final,GWh,2023,2024,15993.6,19444.2,BEN2024,Cuadro 3; p. 48
-2023-2024,industrial,Industrial,GWh,2023,2024,2766.1,2879.5,BEN2024,Cuadro 3; p. 48
-2023-2024,residential,Residencial,GWh,2023,2024,6686.3,7672.2,BEN2024,Cuadro 3; p. 48
-2023-2024,commercial,Comercial y servicios públicos,GWh,2023,2024,4800.1,4949.6,BEN2024,Cuadro 3; p. 48
-2023-2024,unspecified,Otros no especificados,GWh,2023,2024,1741.1,3942.8,BEN2024,Cuadro 3; p. 48
-2024-2025,generation,Generación bruta,GWh,2024,2025,42718.6,45569.1,BEN2025,Cuadro 3; p. 49
-2024-2025,imports,Importación,GWh,2024,2025,0.0,0.0,BEN2025,Cuadro 3; p. 49
-2024-2025,exports,Exportación (magnitud positiva),GWh,2024,2025,15998.1,15539.3,BEN2025,Cuadro 3; p. 49
-2024-2025,own_use,Consumo en centrales y autoconsumo ANDE,GWh,2024,2025,293.7,328.8,BEN2025,Cuadro 3; p. 49
-2024-2025,losses,Pérdidas,GWh,2024,2025,6940.1,7191.5,BEN2025,Cuadro 3; p. 49
-2024-2025,consumption,Consumo final,GWh,2024,2025,19486.7,22509.5,BEN2025,Cuadro 3; p. 49
-2024-2025,industrial,Industrial,GWh,2024,2025,2921.9,3059.6,BEN2025,Cuadro 3; p. 49
-2024-2025,residential,Residencial,GWh,2024,2025,7064.4,7425.6,BEN2025,Cuadro 3; p. 49
-2024-2025,commercial,Comercial y servicios públicos,GWh,2024,2025,4949.6,5228.4,BEN2025,Cuadro 3; p. 49
-2024-2025,unspecified,Otros no especificados,GWh,2024,2025,4550.7,6796.0,BEN2025,Cuadro 3; p. 49
+2020-2021,generation,Gross generation,GWh,2020,2021,46373.0,40576.2,BEN2021,Electricity balance comparison; p. 9
+2020-2021,imports,Imports,GWh,2020,2021,0.0,0.0,BEN2021,Electricity balance comparison; p. 9
+2020-2021,exports,Exports (positive magnitude),GWh,2020,2021,28004.8,21719.2,BEN2021,Electricity balance comparison; p. 9
+2020-2021,own_use,Power-plant consumption and ANDE self-consumption,GWh,2020,2021,421.8,279.6,BEN2021,Electricity balance comparison; p. 9
+2020-2021,losses,Losses,GWh,2020,2021,4227.5,4871.3,BEN2021,Electricity balance comparison; p. 9
+2020-2021,consumption,Final consumption,GWh,2020,2021,13718.9,13706.1,BEN2021,Electricity balance comparison; p. 9
+2021-2022,generation,Gross generation,GWh,2021,2022,40576.2,43880.8,BEN2022,Electricity balance comparison; p. 14
+2021-2022,imports,Imports,GWh,2021,2022,0.0,0.0,BEN2022,Electricity balance comparison; p. 14
+2021-2022,exports,Exports (positive magnitude),GWh,2021,2022,21719.2,23955.1,BEN2022,Electricity balance comparison; p. 14
+2021-2022,own_use,Power-plant consumption and ANDE self-consumption,GWh,2021,2022,279.6,299.7,BEN2022,Electricity balance comparison; p. 14
+2021-2022,losses,Losses,GWh,2021,2022,4871.3,5193.3,BEN2022,Electricity balance comparison; p. 14
+2021-2022,consumption,Final consumption,GWh,2021,2022,13706.1,14432.6,BEN2022,Electricity balance comparison; p. 14
+2022-2023,generation,Gross generation,GWh,2022,2023,44109.6,53041.7,BEN2023,Table 3; p. 28
+2022-2023,imports,Imports,GWh,2022,2023,0.0,0.0,BEN2023,Table 3; p. 28
+2022-2023,exports,Exports (positive magnitude),GWh,2022,2023,23955.1,30389.8,BEN2023,Table 3; p. 28
+2022-2023,own_use,Power-plant consumption and ANDE self-consumption,GWh,2022,2023,299.7,355.2,BEN2023,Table 3; p. 28
+2022-2023,losses,Losses,GWh,2022,2023,5193.3,6303.2,BEN2023,Table 3; p. 28
+2022-2023,consumption,Final consumption,GWh,2022,2023,14661.5,15993.6,BEN2023,Table 3; p. 28
+2023-2024,generation,Gross generation,GWh,2023,2024,53041.7,42676.2,BEN2024,Table 3; p. 48
+2023-2024,imports,Imports,GWh,2023,2024,0.0,0.0,BEN2024,Table 3; p. 48
+2023-2024,exports,Exports (positive magnitude),GWh,2023,2024,30389.8,15998.6,BEN2024,Table 3; p. 48
+2023-2024,own_use,Power-plant consumption and ANDE self-consumption,GWh,2023,2024,355.2,293.4,BEN2024,Table 3; p. 48
+2023-2024,losses,Losses,GWh,2023,2024,6303.2,6940.1,BEN2024,Table 3; p. 48
+2023-2024,consumption,Final consumption,GWh,2023,2024,15993.6,19444.2,BEN2024,Table 3; p. 48
+2023-2024,industrial,Industrial,GWh,2023,2024,2766.1,2879.5,BEN2024,Table 3; p. 48
+2023-2024,residential,Residential,GWh,2023,2024,6686.3,7672.2,BEN2024,Table 3; p. 48
+2023-2024,commercial,Commercial and public services,GWh,2023,2024,4800.1,4949.6,BEN2024,Table 3; p. 48
+2023-2024,unspecified,Other unspecified,GWh,2023,2024,1741.1,3942.8,BEN2024,Table 3; p. 48
+2024-2025,generation,Gross generation,GWh,2024,2025,42718.6,45569.1,BEN2025,Table 3; p. 49
+2024-2025,imports,Imports,GWh,2024,2025,0.0,0.0,BEN2025,Table 3; p. 49
+2024-2025,exports,Exports (positive magnitude),GWh,2024,2025,15998.1,15539.3,BEN2025,Table 3; p. 49
+2024-2025,own_use,Power-plant consumption and ANDE self-consumption,GWh,2024,2025,293.7,328.8,BEN2025,Table 3; p. 49
+2024-2025,losses,Losses,GWh,2024,2025,6940.1,7191.5,BEN2025,Table 3; p. 49
+2024-2025,consumption,Final consumption,GWh,2024,2025,19486.7,22509.5,BEN2025,Table 3; p. 49
+2024-2025,industrial,Industrial,GWh,2024,2025,2921.9,3059.6,BEN2025,Table 3; p. 49
+2024-2025,residential,Residential,GWh,2024,2025,7064.4,7425.6,BEN2025,Table 3; p. 49
+2024-2025,commercial,Commercial and public services,GWh,2024,2025,4949.6,5228.4,BEN2025,Table 3; p. 49
+2024-2025,unspecified,Other unspecified,GWh,2024,2025,4550.7,6796.0,BEN2025,Table 3; p. 49

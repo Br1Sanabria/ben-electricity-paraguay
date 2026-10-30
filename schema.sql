@@ -4,7 +4,9 @@ CREATE TABLE editions (
     edition_id TEXT PRIMARY KEY,
     publication_year INTEGER NOT NULL,
     publisher TEXT NOT NULL,
+    publisher_original TEXT NOT NULL,
     report_title TEXT NOT NULL,
+    report_title_original TEXT NOT NULL,
     source_url TEXT,
     source_catalog_url TEXT,
     notes TEXT
@@ -17,12 +19,15 @@ CREATE TABLE published_comparisons (
     end_year INTEGER NOT NULL,
     indicator_code TEXT NOT NULL,
     label_original TEXT NOT NULL,
+    label_en TEXT NOT NULL,
     value_base_gwh REAL,
     value_end_gwh REAL,
     published_change_percent REAL,
     source_file TEXT,
-    printed_page TEXT,
-    data_status_note TEXT
+    printed_page_original TEXT,
+    printed_page_en TEXT,
+    data_status_note_original TEXT,
+    data_status_note_en TEXT
 );
 
 CREATE TABLE edition_observations (

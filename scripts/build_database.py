@@ -11,10 +11,11 @@ from pathlib import Path
 from typing import Any
 
 from extract_comparisons import extract_rows
+from translate_data import translate_data
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DATABASE = ROOT / "db" / "ben_electricidad.sqlite"
+DATABASE = ROOT / "db" / "ben_electricity.sqlite"
 
 
 def text(value: Any) -> str | None:
@@ -112,6 +113,7 @@ def summary_metric_rows(results: dict[str, Any]) -> list[tuple[Any, ...]]:
 
 
 def main() -> None:
+    translate_data()
     write_published_comparisons()
     schema = (ROOT / "schema.sql").read_text(encoding="utf-8")
     results = json.loads((ROOT / "data" / "derived" / "results.json").read_text(
@@ -127,13 +129,19 @@ def main() -> None:
         editions = read_csv("data/editions.csv")
         insert_many(
             connection,
-            "INSERT INTO editions VALUES (?, ?, ?, ?, ?, ?, ?)",
+            """INSERT INTO editions (
+                edition_id, publication_year, publisher, publisher_original,
+                report_title, report_title_original, source_url,
+                source_catalog_url, notes
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
             [
                 (
                     row["edition_id"],
                     integer(row["publication_year"]),
                     row["publisher"],
+                    row["publisher_original"],
                     row["report_title"],
+                    row["report_title_original"],
                     text(row["source_url"]),
                     text(row["source_catalog_url"]),
                     text(row["notes"]),
@@ -146,9 +154,11 @@ def main() -> None:
             connection,
             """INSERT INTO published_comparisons (
                 edition_id, base_year, end_year, indicator_code, label_original,
+                label_en,
                 value_base_gwh, value_end_gwh, published_change_percent,
-                source_file, printed_page, data_status_note
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                source_file, printed_page_original, printed_page_en,
+                data_status_note_original, data_status_note_en
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
             [
                 (
                     row["edition_id"],
@@ -156,12 +166,15 @@ def main() -> None:
                     integer(row["end_year"]),
                     row["indicator_code"],
                     row["label_original"],
+                    row["label_en"],
                     number(row["value_base_gwh"]),
                     number(row["value_end_gwh"]),
                     number(row["published_change_percent"]),
                     text(row["source_file"]),
-                    text(row["printed_page"]),
-                    text(row["data_status_note"]),
+                    text(row["printed_page_original"]),
+                    text(row["printed_page_en"]),
+                    text(row["data_status_note_original"]),
+                    text(row["data_status_note_en"]),
                 )
                 for row in read_csv("data/source/published_comparisons.csv")
             ],
@@ -301,7 +314,7 @@ def main() -> None:
                     row["observation"],
                     row["inference_limit"],
                 )
-                for row in read_csv("data/context/evidencia_regulatoria.csv")
+                for row in read_csv("data/context/regulatory_evidence.csv")
             ],
         )
 
@@ -320,7 +333,7 @@ def main() -> None:
             count = connection.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0]
             print(f"{table}: {count}")
 
-    print(f"Base SQLite creada: {DATABASE.relative_to(ROOT)}")
+    print(f"SQLite database created: {DATABASE.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

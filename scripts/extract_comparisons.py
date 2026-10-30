@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Export the `Datos BEN` worksheet from the supplied source workbook to CSV."""
+"""Export the original `Datos BEN` worksheet with English lookup fields."""
 
 from __future__ import annotations
 
@@ -12,9 +12,15 @@ from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
+from translations import (
+    PUBLISHED_NOTE_TRANSLATIONS,
+    PUBLISHED_PAGE_TRANSLATIONS,
+    translate_label,
+)
+
 
 ROOT = Path(__file__).resolve().parents[1]
-WORKBOOK = ROOT / "sources" / "extraccion_BEN_electricidad_graficos.xlsx"
+WORKBOOK = ROOT / "sources" / "source_extraction_ben_electricity.xlsx"
 OUTPUT = ROOT / "data" / "source" / "published_comparisons.csv"
 MAIN_NS = "http://schemas.openxmlformats.org/spreadsheetml/2006/main"
 REL_NS = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
@@ -27,13 +33,24 @@ FIELDS = [
     "end_year",
     "indicator_code",
     "label_original",
+    "label_en",
     "value_base_gwh",
     "value_end_gwh",
     "published_change_percent",
     "source_file",
-    "printed_page",
-    "data_status_note",
+    "printed_page_original",
+    "printed_page_en",
+    "data_status_note_original",
+    "data_status_note_en",
 ]
+
+
+def translated(value: str, translations: dict[str, str], field: str) -> str:
+    if not value:
+        return ""
+    if value in translations:
+        return translations[value]
+    raise ValueError(f"Missing English translation for {field}: {value}")
 
 
 def column_index(cell_reference: str) -> int:
@@ -126,6 +143,7 @@ def extract_rows() -> list[dict[str, str]]:
                     "end_year": source["Año final"],
                     "indicator_code": source["Código comparable"],
                     "label_original": source["Rótulo original"],
+                    "label_en": translate_label(source["Rótulo original"]),
                     "value_base_gwh": number_text(
                         source["Valor base publicado (GWh)"], 1
                     ),
@@ -136,8 +154,22 @@ def extract_rows() -> list[dict[str, str]]:
                         source["Variación publicada (%)"], 2
                     ),
                     "source_file": source["Archivo fuente"],
-                    "printed_page": source["Página impresa"],
-                    "data_status_note": source["Estado del dato / nota"],
+                    "printed_page_original": source["Página impresa"],
+                    "printed_page_en": translated(
+                        source["Página impresa"],
+                        PUBLISHED_PAGE_TRANSLATIONS,
+                        "printed page note",
+                    )
+                    if source["Página impresa"] in PUBLISHED_PAGE_TRANSLATIONS
+                    else source["Página impresa"],
+                    "data_status_note_original": source["Estado del dato / nota"],
+                    "data_status_note_en": translated(
+                        source["Estado del dato / nota"],
+                        PUBLISHED_NOTE_TRANSLATIONS,
+                        "data status note",
+                    )
+                    if source["Estado del dato / nota"]
+                    else "",
                 }
             )
         if not output:
@@ -153,8 +185,8 @@ def main() -> None:
         writer.writeheader()
         writer.writerows(rows)
     counts = Counter(row["edition_id"] for row in rows)
-    print(f"CSV actualizado: {OUTPUT.relative_to(ROOT)}")
-    print(f"Renglones exportados: {len(rows)}")
+    print(f"Updated CSV: {OUTPUT.relative_to(ROOT)}")
+    print(f"Rows exported: {len(rows)}")
     for edition_id in sorted(counts):
         print(f"{edition_id}: {counts[edition_id]}")
 

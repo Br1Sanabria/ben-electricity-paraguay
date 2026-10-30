@@ -1,73 +1,77 @@
-# Datos de electricidad del Balance Energético Nacional de Paraguay
+# Electricity Data from Paraguay’s National Energy Balance (BEN)
 
-Repositorio de datos consultables para el análisis de electricidad del Balance Energético Nacional (BEN). La cobertura inicial reúne cuadros comparativos de las ediciones BEN 2020–BEN 2025 y las tablas consolidadas del análisis eléctrico.
+This repository provides a queryable, traceable dataset of electricity figures extracted from and analyzed across editions of Paraguay’s National Energy Balance (*Balance Energético Nacional*, BEN). The initial release covers BEN 2020 through BEN 2025.
 
-## Cobertura
+## Coverage
 
-- **6 ediciones:** BEN 2020 a BEN 2025.
-- **107 renglones** exportados de los cuadros comparativos de electricidad de la planilla fuente.
-- **60 observaciones** de balance con edición y año de referencia explícitos, tomadas del análisis BEN 2021–BEN 2025.
-- **38 comparaciones** interanuales, **24 registros** de revisión entre ediciones, **6 años** de serie histórica y **5 indicadores adicionales** de BEN 2025.
-- **10 registros** de evidencia regulatoria en una tabla separada del dominio BEN.
+- 6 BEN editions, 2020–2025.
+- 107 rows transcribed from published electricity comparison tables.
+- 60 balance observations with publication edition and reference year kept separate, from BEN 2021–BEN 2025.
+- 38 year-over-year comparisons, 24 cross-edition revision records, 6 latest-vintage historical values, and 5 additional BEN 2025 indicators.
+- 10 regulatory-evidence records, stored separately from BEN energy data.
 
-La extracción fuente cubre el par 2019–2020 de BEN 2020 y pares interanuales hasta 2024–2025 de BEN 2025. Las tablas consolidadas del artículo comienzan en BEN 2021.
+The source extraction includes the 2019–2020 pair from BEN 2020 and annual pairs through 2024–2025 from BEN 2025. The consolidated analysis tables begin with BEN 2021.
 
-## Archivos
+## Repository contents
 
-| Ruta | Contenido |
+| Path | Contents |
 | --- | --- |
-| `db/ben_electricidad.sqlite` | Base SQLite lista para descargar y consultar. |
-| `data/editions.csv` | Ediciones, institución y referencias de fuente. |
-| `data/source/published_comparisons.csv` | Transcripción por renglón de los cuadros comparativos publicados. |
-| `data/observations/edition_observations.csv` | Observaciones de balance por edición, año de referencia y variable. |
-| `data/derived/annual_comparisons.csv` | Comparaciones interanuales utilizadas en el análisis. |
-| `data/derived/historical_latest_series.csv` | Último dato disponible por año de referencia. |
-| `data/derived/revision_audit.csv` | Cambios de valores entre ediciones para un mismo año. |
-| `data/derived/ben2025_indicators.csv` | Indicadores adicionales de la edición BEN 2025. |
-| `data/derived/results.json` | Resultados decimales completos y notas metodológicas del análisis. |
-| `data/context/evidencia_regulatoria.csv` | Evidencia regulatoria relacionada con el artículo, separada de los datos energéticos. |
-| `sources/extraccion_BEN_electricidad_graficos.xlsx` | Planilla fuente entregada, conservada para trazabilidad. |
-| `schema.sql` | Esquema relacional de SQLite. |
+| `db/ben_electricity.sqlite` | SQLite database ready to download and query. |
+| `data/editions.csv` | Edition metadata, English and original publisher/report names, and source links. |
+| `data/source/published_comparisons.csv` | Transcribed published values with original Spanish labels and English translations. |
+| `data/observations/edition_observations.csv` | Balance observations by publication edition, reference year, and indicator. |
+| `data/derived/annual_comparisons.csv` | Year-over-year comparisons used in the analysis. |
+| `data/derived/historical_latest_series.csv` | Latest available edition value for each reference year. |
+| `data/derived/revision_audit.csv` | Changes to the same reference-year value across editions. |
+| `data/derived/ben2025_indicators.csv` | Additional indicators from BEN 2025. |
+| `data/derived/results.json` | Full precision results and analysis notes. |
+| `data/context/regulatory_evidence.csv` | Regulatory evidence related to the analysis, separate from energy data. |
+| `sources/source_extraction_ben_electricity.xlsx` | Original supplied workbook, retained unchanged for provenance. |
+| `schema.sql` | SQLite relational schema. |
+| `scripts/` | Extraction, translation, and database rebuild scripts. |
 
-## Estructura de la base SQLite
+Documentation, identifiers, database column names, analysis labels, and operational notes are in English. Fields ending in `_original` preserve the Spanish wording found in the source material. `label_en` provides an English translation alongside each published comparison label.
 
-| Tabla | Filas iniciales | Uso |
+## SQLite tables
+
+| Table | Initial rows | Purpose |
 | --- | ---: | --- |
-| `editions` | 6 | Metadatos de las ediciones y sus fuentes. |
-| `published_comparisons` | 107 | Valores publicados en cada cuadro, con rótulos, signos y localizadores de origen. |
-| `edition_observations` | 60 | Valores de balance conservando la edición que los publica y el año que describen. |
-| `annual_comparisons` | 38 | Pares de niveles usados para comparar años consecutivos. |
-| `historical_latest_series` | 6 | Serie que selecciona la edición más reciente para cada año. |
-| `revision_audit` | 24 | Diferencias entre vintages de una misma variable y año. |
-| `ben2025_indicators` | 5 | Indicadores adicionales publicados o analizados para BEN 2025. |
-| `comparison_results` | 5 | Resultados calculados por comparación, incluidos componentes desglosados en JSON. |
-| `summary_metrics` | 5 | Indicadores resumen guardados como métricas escalares. |
-| `regulatory_evidence` | 10 | Evidencia documental regulatoria, con límites de inferencia. |
+| `editions` | 6 | Edition metadata, including original and translated publisher/report names. |
+| `published_comparisons` | 107 | Published comparison values, preserving original labels and providing English translations. |
+| `edition_observations` | 60 | Balance values tied to both the edition that publishes them and the year they describe. |
+| `annual_comparisons` | 38 | Paired levels used for year-over-year comparisons. |
+| `historical_latest_series` | 6 | Latest available edition value for each reference year. |
+| `revision_audit` | 24 | Differences across editions for the same indicator and reference year. |
+| `ben2025_indicators` | 5 | Additional indicators reported or analyzed for BEN 2025. |
+| `comparison_results` | 5 | Calculated comparison results, including JSON breakdowns. |
+| `summary_metrics` | 5 | Scalar summary metrics. |
+| `regulatory_evidence` | 10 | Documentary regulatory evidence with stated inference limits. |
 
-Las salidas derivadas mantienen su procedencia y su tabla de origen. `published_comparisons` conserva los signos con que se transcribieron los renglones del BEN. `edition_observations` utiliza las magnitudes positivas adoptadas por el análisis para cerrar el balance eléctrico.
+Derived outputs retain their source edition and locator. `published_comparisons` preserves the source sign and label. `edition_observations` uses the positive magnitudes adopted by the analysis to close the electricity balance.
 
-## Consulta rápida
+## Example queries
 
-Con SQLite instalado:
+Published comparison values, with the English label and the original Spanish label:
 
 ```sql
 SELECT edition_id, base_year, end_year, indicator_code,
-       value_base_gwh, value_end_gwh, published_change_percent
+       label_en, label_original, value_base_gwh, value_end_gwh,
+       published_change_percent
 FROM published_comparisons
 WHERE edition_id = 'BEN2025'
 ORDER BY indicator_code;
 ```
 
-Para consultar la generación por edición y año de referencia:
+Generation by publication edition and reference year:
 
 ```sql
-SELECT edition_id, reference_year, value, unit, locator, status
+SELECT edition_id, reference_year, label, value, unit, locator, status
 FROM edition_observations
 WHERE indicator_code = 'generation'
 ORDER BY reference_year, edition_id;
 ```
 
-Para ver revisiones del consumo final:
+Consumption revisions across editions:
 
 ```sql
 SELECT reference_year, from_edition_id, from_value_gwh,
@@ -77,36 +81,37 @@ WHERE indicator_code = 'consumption'
 ORDER BY reference_year, from_edition_id;
 ```
 
-## Reconstruir la base
+## Rebuild the database
 
-Se requiere Python 3. El generador utiliza solo la biblioteca estándar.
+Python 3 is required. The scripts use only the Python standard library.
 
 ```bash
 python scripts/build_database.py
 ```
 
-El comando vuelve a exportar `Datos BEN` desde el libro fuente, genera `data/source/published_comparisons.csv` y reconstruye `db/ben_electricidad.sqlite` desde los CSV del repositorio y `results.json`.
+The command translates the maintained metadata and analysis notes, exports the `Datos BEN` worksheet from the original workbook to `data/source/published_comparisons.csv`, and rebuilds `db/ben_electricity.sqlite` from the repository’s CSV and JSON files.
 
-## Procedencia y tratamiento
+## Provenance and treatment
 
-- Los PDF oficiales no se redistribuyen aquí. `editions.csv` enlaza al catálogo del Viceministerio de Minas y Energía y a los documentos oficiales disponibles.
-- La planilla fuente y sus transcripciones se preservan. La exportación CSV redondea los valores GWh a una décima y los porcentajes a dos decimales para retirar residuos de coma flotante de Excel; la planilla original se mantiene en `sources/`.
-- Los campos vacíos se mantienen vacíos. No se convierten en cero.
-- Los cambios interanuales se calculan dentro de la edición que publica cada par. La tabla `historical_latest_series` selecciona el último vintage disponible por año; no debe usarse para encadenar una única tasa anual porque ediciones posteriores revisan años previos.
-- El BEN 2023 amplía la cobertura de generación y actualiza valores anteriores. BEN 2024 y BEN 2025 también revisan datos de años previos. Las diferencias de revisión están en `revision_audit`.
-- El detalle sectorial comparable del análisis cubre 2023–2025. Las categorías y la cobertura cambian en ediciones anteriores.
-- El cierre del balance admite una tolerancia de hasta 0,3 GWh por redondeo, según la metodología documentada en el material de análisis.
-- BEN 2020 contiene filas cuyo localizador de página impresa está pendiente de cotejo. El enlace directo a los PDF de BEN 2020 y BEN 2021 no estuvo disponible al preparar este repositorio; se conserva el enlace al catálogo oficial y la referencia guardada en la extracción.
-- La evidencia regulatoria no constituye un inventario exhaustivo ni una auditoría legal. Sus límites figuran fila por fila.
+- Official PDFs are linked rather than redistributed. `editions.csv` links to the Vice Ministry of Mines and Energy’s historical catalog and to available official reports.
+- The supplied workbook is retained unchanged. Published Spanish labels, page notes, and data-status notes are preserved in `_original` fields with English translations beside them.
+- CSV exports round GWh values to one decimal place and percentages to two decimal places to remove Excel floating-point residue. The original workbook remains available for review.
+- Blank source fields remain blank; they are not converted to zero.
+- Year-over-year changes are calculated within the edition that publishes each pair. `historical_latest_series` selects the latest available edition for each reference year; it should not be used to chain a single annual growth rate because later editions revise earlier values.
+- BEN 2023 expands generation coverage and updates earlier values. BEN 2024 and BEN 2025 also revise previous years. These changes are listed in `revision_audit`.
+- Comparable sector detail in the analysis covers 2023–2025. Categories and coverage differ in earlier editions.
+- Balance closure allows a tolerance of up to 0.3 GWh for rounding, as documented in the analysis material.
+- Some BEN 2020 printed-page locators still require verification. Direct PDF links for BEN 2020 and BEN 2021 were unavailable when this repository was prepared; the official catalog and the references stored in the extraction are retained.
+- Regulatory evidence is not an exhaustive inventory or legal audit. Each record states its inference limits.
 
-## Fuentes oficiales
+## Official sources
 
-- [Catálogo histórico del BEN, Viceministerio de Minas y Energía](https://minasyenergia.mopc.gov.py/index.php?FontSize=font-large&Itemid=816&id=2069&option=com_content&view=article)
-- [BEN 2022, resumen estadístico](https://minasyenergia.mopc.gov.py/pdf/balance2022/BEN%202022_Estadistico_VF.pdf)
-- [BEN 2023, informe y resumen estadístico](https://minasyenergia.mopc.gov.py/pdf/balance2023/BEN%202023_Analitico%20VF.pdf)
-- [BEN 2024, informe y resumen estadístico](https://minasyenergia.mopc.gov.py/pdf/balance2024/BEN%202024_Paraguay.pdf)
-- [Comunicación del MOPC sobre los resultados de BEN 2025](https://mopc.gov.py/consumo-de-electricidad-supera-por-primera-vez-al-de-biomasa-solida-en-2025/)
+- [Historical BEN catalog — Vice Ministry of Mines and Energy](https://minasyenergia.mopc.gov.py/index.php?FontSize=font-large&Itemid=816&id=2069&option=com_content&view=article)
+- [BEN 2022 Statistical Summary (*Resumen Estadístico*)](https://minasyenergia.mopc.gov.py/pdf/balance2022/BEN%202022_Estadistico_VF.pdf)
+- [BEN 2023 Analytical Report (*Analítico*)](https://minasyenergia.mopc.gov.py/pdf/balance2023/BEN%202023_Analitico%20VF.pdf)
+- [BEN 2024 Paraguay report](https://minasyenergia.mopc.gov.py/pdf/balance2024/BEN%202024_Paraguay.pdf)
+- [MOPC announcement on BEN 2025 results](https://mopc.gov.py/consumo-de-electricidad-supera-por-primera-vez-al-de-biomasa-solida-en-2025/)
 
-## Repositorio GitHub
+## GitHub repository
 
-El proyecto se publica en [Br1Sanabria/ben-electricity-paraguay](https://github.com/Br1Sanabria/ben-electricity-paraguay), un repositorio público. Esta copia incluye la base SQLite, los CSV de consulta, el esquema, los scripts de reconstrucción y los insumos conservados para trazabilidad.
+The public repository is [`Br1Sanabria/ben-electricity-paraguay`](https://github.com/Br1Sanabria/ben-electricity-paraguay). It contains the SQLite database, query-ready CSV files, schema, rebuild scripts, and source material retained for provenance.

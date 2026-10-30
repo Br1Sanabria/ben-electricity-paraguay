@@ -1,7 +1,7 @@
 year,observation,generation_gwh,exports_gwh,consumption_gwh,consumption_to_generation_percent,source_key,locator,status
-2020,2020_BEN2021,46373.0,28004.8,13718.9,29.58380954434692601298169193,BEN2021,Comparativo del balance de electricidad; p. 9,Valor publicado en BEN 2021; balance comparativo 2021–2020.
-2021,2021_BEN2022,40576.2,21719.2,13706.1,33.77866828337794076330459728,BEN2022,Comparativo del balance de electricidad; p. 14,Valor comparativo BEN 2022; coincide con BEN 2021.
-2022,2022_BEN2023,44109.6,23955.1,14661.5,33.23879608974010192792498685,BEN2023,Cuadro 3; p. 28,Año 2022 reexpresado bajo siePARAGUAY; generación bruta incluye autoproductores.
-2023,2023_BEN2024,53041.7,30389.8,15993.6,30.15287971539373738021217269,BEN2024,Cuadro 3; p. 48,Valores agregados de 2023 reproducidos en BEN 2024.
-2024,2024_BEN2025,42718.6,15998.1,19486.7,45.61642937736723581765320025,BEN2025,Cuadro 3; p. 49,Valor de 2024 revisado en la edición BEN 2025.
-2025,2025_BEN2025,45569.1,15539.3,22509.5,49.39641116458301787834299997,BEN2025,Cuadro 3; p. 49,Año 2025 preliminar; corte de información 31-07-2026.
+2020,2020_BEN2021,46373.0,28004.8,13718.9,29.58380954434692601298169193,BEN2021,Electricity balance comparison; p. 9,Value published in BEN 2021; 2021–2020 comparative balance.
+2021,2021_BEN2022,40576.2,21719.2,13706.1,33.77866828337794076330459728,BEN2022,Electricity balance comparison; p. 14,Comparative value in BEN 2022; matches BEN 2021.
+2022,2022_BEN2023,44109.6,23955.1,14661.5,33.23879608974010192792498685,BEN2023,Table 3; p. 28,2022 values restated under siePARAGUAY; gross generation includes autoproducers.
+2023,2023_BEN2024,53041.7,30389.8,15993.6,30.15287971539373738021217269,BEN2024,Table 3; p. 48,2023 aggregate values reproduced in BEN 2024.
+2024,2024_BEN2025,42718.6,15998.1,19486.7,45.61642937736723581765320025,BEN2025,Table 3; p. 49,2024 value revised in the BEN 2025 edition.
+2025,2025_BEN2025,45569.1,15539.3,22509.5,49.39641116458301787834299997,BEN2025,Table 3; p. 49,2025 preliminary; data cutoff 2026-07-31.

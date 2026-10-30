@@ -1,6 +1,6 @@
 indicator,label,unit,value,source_key,locator
-solar_generation,Generación solar,GWh,14.6,BEN2025,Aspectos relevantes; p. 17
-peak_demand,Demanda máxima de potencia,MW,5280,BEN2025,Aspectos relevantes; p. 17
-ida_consumption,Consumo de Infraestructura Digital Avanzada,GWh,5464.9,BEN2025,Valoración de otros sectores; p. 30
-argentina_exports,Exportaciones a Argentina,GWh,5083.7,BEN2025,Detalle de exportación; p. 22
-brazil_exports,Exportaciones a Brasil,GWh,10455.6,BEN2025,Detalle de exportación; p. 22
+solar_generation,Solar generation,GWh,14.6,BEN2025,Key highlights; p. 17
+peak_demand,Peak power demand,MW,5280,BEN2025,Key highlights; p. 17
+ida_consumption,Advanced Digital Infrastructure consumption,GWh,5464.9,BEN2025,Assessment of other sectors; p. 30
+argentina_exports,Exports to Argentina,GWh,5083.7,BEN2025,Exports detail; p. 22
+brazil_exports,Exports to Brazil,GWh,10455.6,BEN2025,Exports detail; p. 22

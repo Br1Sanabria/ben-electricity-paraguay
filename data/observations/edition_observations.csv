@@ -1,61 +1,61 @@
 observation,year,edition,variable,label,unit,value,source_key,locator,status
-2020_BEN2021,2020,2021,generation,Generación bruta,GWh,46373.0,BEN2021,Comparativo del balance de electricidad; p. 9,Valor publicado en BEN 2021; balance comparativo 2021–2020.
-2020_BEN2021,2020,2021,imports,Importación,GWh,0.0,BEN2021,Comparativo del balance de electricidad; p. 9,Valor publicado en BEN 2021; balance comparativo 2021–2020.
-2020_BEN2021,2020,2021,exports,Exportación,GWh,28004.8,BEN2021,Comparativo del balance de electricidad; p. 9,Valor publicado en BEN 2021; balance comparativo 2021–2020.
-2020_BEN2021,2020,2021,own_use,Consumo propio,GWh,421.8,BEN2021,Comparativo del balance de electricidad; p. 9,Valor publicado en BEN 2021; balance comparativo 2021–2020.
-2020_BEN2021,2020,2021,losses,Pérdidas,GWh,4227.5,BEN2021,Comparativo del balance de electricidad; p. 9,Valor publicado en BEN 2021; balance comparativo 2021–2020.
-2020_BEN2021,2020,2021,consumption,Consumo final,GWh,13718.9,BEN2021,Comparativo del balance de electricidad; p. 9,Valor publicado en BEN 2021; balance comparativo 2021–2020.
-2021_BEN2021,2021,2021,generation,Generación bruta,GWh,40576.2,BEN2021,Comparativo del balance de electricidad; p. 9,Año 2021 preliminar; corte de información 31-07-2022.
-2021_BEN2021,2021,2021,imports,Importación,GWh,0.0,BEN2021,Comparativo del balance de electricidad; p. 9,Año 2021 preliminar; corte de información 31-07-2022.
-2021_BEN2021,2021,2021,exports,Exportación,GWh,21719.2,BEN2021,Comparativo del balance de electricidad; p. 9,Año 2021 preliminar; corte de información 31-07-2022.
-2021_BEN2021,2021,2021,own_use,Consumo propio,GWh,279.6,BEN2021,Comparativo del balance de electricidad; p. 9,Año 2021 preliminar; corte de información 31-07-2022.
-2021_BEN2021,2021,2021,losses,Pérdidas,GWh,4871.3,BEN2021,Comparativo del balance de electricidad; p. 9,Año 2021 preliminar; corte de información 31-07-2022.
-2021_BEN2021,2021,2021,consumption,Consumo final,GWh,13706.1,BEN2021,Comparativo del balance de electricidad; p. 9,Año 2021 preliminar; corte de información 31-07-2022.
-2021_BEN2022,2021,2022,generation,Generación bruta,GWh,40576.2,BEN2022,Comparativo del balance de electricidad; p. 14,Valor comparativo BEN 2022; coincide con BEN 2021.
-2021_BEN2022,2021,2022,imports,Importación,GWh,0.0,BEN2022,Comparativo del balance de electricidad; p. 14,Valor comparativo BEN 2022; coincide con BEN 2021.
-2021_BEN2022,2021,2022,exports,Exportación,GWh,21719.2,BEN2022,Comparativo del balance de electricidad; p. 14,Valor comparativo BEN 2022; coincide con BEN 2021.
-2021_BEN2022,2021,2022,own_use,Consumo propio,GWh,279.6,BEN2022,Comparativo del balance de electricidad; p. 14,Valor comparativo BEN 2022; coincide con BEN 2021.
-2021_BEN2022,2021,2022,losses,Pérdidas,GWh,4871.3,BEN2022,Comparativo del balance de electricidad; p. 14,Valor comparativo BEN 2022; coincide con BEN 2021.
-2021_BEN2022,2021,2022,consumption,Consumo final,GWh,13706.1,BEN2022,Comparativo del balance de electricidad; p. 14,Valor comparativo BEN 2022; coincide con BEN 2021.
-2022_BEN2022,2022,2022,generation,Generación bruta,GWh,43880.8,BEN2022,Comparativo del balance de electricidad; p. 14,Año 2022 preliminar; corte 31-07-2023; cuadro bajo serie SIEN.
-2022_BEN2022,2022,2022,imports,Importación,GWh,0.0,BEN2022,Comparativo del balance de electricidad; p. 14,Año 2022 preliminar; corte 31-07-2023; cuadro bajo serie SIEN.
-2022_BEN2022,2022,2022,exports,Exportación,GWh,23955.1,BEN2022,Comparativo del balance de electricidad; p. 14,Año 2022 preliminar; corte 31-07-2023; cuadro bajo serie SIEN.
-2022_BEN2022,2022,2022,own_use,Consumo propio,GWh,299.7,BEN2022,Comparativo del balance de electricidad; p. 14,Año 2022 preliminar; corte 31-07-2023; cuadro bajo serie SIEN.
-2022_BEN2022,2022,2022,losses,Pérdidas,GWh,5193.3,BEN2022,Comparativo del balance de electricidad; p. 14,Año 2022 preliminar; corte 31-07-2023; cuadro bajo serie SIEN.
-2022_BEN2022,2022,2022,consumption,Consumo final,GWh,14432.6,BEN2022,Comparativo del balance de electricidad; p. 14,Año 2022 preliminar; corte 31-07-2023; cuadro bajo serie SIEN.
-2022_BEN2023,2022,2023,generation,Generación bruta,GWh,44109.6,BEN2023,Cuadro 3; p. 28,Año 2022 reexpresado bajo siePARAGUAY; generación bruta incluye autoproductores.
-2022_BEN2023,2022,2023,imports,Importación,GWh,0.0,BEN2023,Cuadro 3; p. 28,Año 2022 reexpresado bajo siePARAGUAY; generación bruta incluye autoproductores.
-2022_BEN2023,2022,2023,exports,Exportación,GWh,23955.1,BEN2023,Cuadro 3; p. 28,Año 2022 reexpresado bajo siePARAGUAY; generación bruta incluye autoproductores.
-2022_BEN2023,2022,2023,own_use,Consumo propio,GWh,299.7,BEN2023,Cuadro 3; p. 28,Año 2022 reexpresado bajo siePARAGUAY; generación bruta incluye autoproductores.
-2022_BEN2023,2022,2023,losses,Pérdidas,GWh,5193.3,BEN2023,Cuadro 3; p. 28,Año 2022 reexpresado bajo siePARAGUAY; generación bruta incluye autoproductores.
-2022_BEN2023,2022,2023,consumption,Consumo final,GWh,14661.5,BEN2023,Cuadro 3; p. 28,Año 2022 reexpresado bajo siePARAGUAY; generación bruta incluye autoproductores.
-2023_BEN2023,2023,2023,generation,Generación bruta,GWh,53041.7,BEN2023,Cuadro 3; p. 28,Año 2023 preliminar; corte de información 31-07-2024.
-2023_BEN2023,2023,2023,imports,Importación,GWh,0.0,BEN2023,Cuadro 3; p. 28,Año 2023 preliminar; corte de información 31-07-2024.
-2023_BEN2023,2023,2023,exports,Exportación,GWh,30389.8,BEN2023,Cuadro 3; p. 28,Año 2023 preliminar; corte de información 31-07-2024.
-2023_BEN2023,2023,2023,own_use,Consumo propio,GWh,355.2,BEN2023,Cuadro 3; p. 28,Año 2023 preliminar; corte de información 31-07-2024.
-2023_BEN2023,2023,2023,losses,Pérdidas,GWh,6303.2,BEN2023,Cuadro 3; p. 28,Año 2023 preliminar; corte de información 31-07-2024.
-2023_BEN2023,2023,2023,consumption,Consumo final,GWh,15993.6,BEN2023,Cuadro 3; p. 28,Año 2023 preliminar; corte de información 31-07-2024.
-2023_BEN2024,2023,2024,generation,Generación bruta,GWh,53041.7,BEN2024,Cuadro 3; p. 48,Valores agregados de 2023 reproducidos en BEN 2024.
-2023_BEN2024,2023,2024,imports,Importación,GWh,0.0,BEN2024,Cuadro 3; p. 48,Valores agregados de 2023 reproducidos en BEN 2024.
-2023_BEN2024,2023,2024,exports,Exportación,GWh,30389.8,BEN2024,Cuadro 3; p. 48,Valores agregados de 2023 reproducidos en BEN 2024.
-2023_BEN2024,2023,2024,own_use,Consumo propio,GWh,355.2,BEN2024,Cuadro 3; p. 48,Valores agregados de 2023 reproducidos en BEN 2024.
-2023_BEN2024,2023,2024,losses,Pérdidas,GWh,6303.2,BEN2024,Cuadro 3; p. 48,Valores agregados de 2023 reproducidos en BEN 2024.
-2023_BEN2024,2023,2024,consumption,Consumo final,GWh,15993.6,BEN2024,Cuadro 3; p. 48,Valores agregados de 2023 reproducidos en BEN 2024.
-2024_BEN2024,2024,2024,generation,Generación bruta,GWh,42676.2,BEN2024,Cuadro 3; p. 48,Año 2024 preliminar; corte de información 31-07-2025.
-2024_BEN2024,2024,2024,imports,Importación,GWh,0.0,BEN2024,Cuadro 3; p. 48,Año 2024 preliminar; corte de información 31-07-2025.
-2024_BEN2024,2024,2024,exports,Exportación,GWh,15998.6,BEN2024,Cuadro 3; p. 48,Año 2024 preliminar; corte de información 31-07-2025.
-2024_BEN2024,2024,2024,own_use,Consumo propio,GWh,293.4,BEN2024,Cuadro 3; p. 48,Año 2024 preliminar; corte de información 31-07-2025.
-2024_BEN2024,2024,2024,losses,Pérdidas,GWh,6940.1,BEN2024,Cuadro 3; p. 48,Año 2024 preliminar; corte de información 31-07-2025.
-2024_BEN2024,2024,2024,consumption,Consumo final,GWh,19444.2,BEN2024,Cuadro 3; p. 48,Año 2024 preliminar; corte de información 31-07-2025.
-2024_BEN2025,2024,2025,generation,Generación bruta,GWh,42718.6,BEN2025,Cuadro 3; p. 49,Valor de 2024 revisado en la edición BEN 2025.
-2024_BEN2025,2024,2025,imports,Importación,GWh,0.0,BEN2025,Cuadro 3; p. 49,Valor de 2024 revisado en la edición BEN 2025.
-2024_BEN2025,2024,2025,exports,Exportación,GWh,15998.1,BEN2025,Cuadro 3; p. 49,Valor de 2024 revisado en la edición BEN 2025.
-2024_BEN2025,2024,2025,own_use,Consumo propio,GWh,293.7,BEN2025,Cuadro 3; p. 49,Valor de 2024 revisado en la edición BEN 2025.
-2024_BEN2025,2024,2025,losses,Pérdidas,GWh,6940.1,BEN2025,Cuadro 3; p. 49,Valor de 2024 revisado en la edición BEN 2025.
-2024_BEN2025,2024,2025,consumption,Consumo final,GWh,19486.7,BEN2025,Cuadro 3; p. 49,Valor de 2024 revisado en la edición BEN 2025.
-2025_BEN2025,2025,2025,generation,Generación bruta,GWh,45569.1,BEN2025,Cuadro 3; p. 49,Año 2025 preliminar; corte de información 31-07-2026.
-2025_BEN2025,2025,2025,imports,Importación,GWh,0.0,BEN2025,Cuadro 3; p. 49,Año 2025 preliminar; corte de información 31-07-2026.
-2025_BEN2025,2025,2025,exports,Exportación,GWh,15539.3,BEN2025,Cuadro 3; p. 49,Año 2025 preliminar; corte de información 31-07-2026.
-2025_BEN2025,2025,2025,own_use,Consumo propio,GWh,328.8,BEN2025,Cuadro 3; p. 49,Año 2025 preliminar; corte de información 31-07-2026.
-2025_BEN2025,2025,2025,losses,Pérdidas,GWh,7191.5,BEN2025,Cuadro 3; p. 49,Año 2025 preliminar; corte de información 31-07-2026.
-2025_BEN2025,2025,2025,consumption,Consumo final,GWh,22509.5,BEN2025,Cuadro 3; p. 49,Año 2025 preliminar; corte de información 31-07-2026.
+2020_BEN2021,2020,2021,generation,Gross generation,GWh,46373.0,BEN2021,Electricity balance comparison; p. 9,Value published in BEN 2021; 2021–2020 comparative balance.
+2020_BEN2021,2020,2021,imports,Imports,GWh,0.0,BEN2021,Electricity balance comparison; p. 9,Value published in BEN 2021; 2021–2020 comparative balance.
+2020_BEN2021,2020,2021,exports,Exports,GWh,28004.8,BEN2021,Electricity balance comparison; p. 9,Value published in BEN 2021; 2021–2020 comparative balance.
+2020_BEN2021,2020,2021,own_use,Own use,GWh,421.8,BEN2021,Electricity balance comparison; p. 9,Value published in BEN 2021; 2021–2020 comparative balance.
+2020_BEN2021,2020,2021,losses,Losses,GWh,4227.5,BEN2021,Electricity balance comparison; p. 9,Value published in BEN 2021; 2021–2020 comparative balance.
+2020_BEN2021,2020,2021,consumption,Final consumption,GWh,13718.9,BEN2021,Electricity balance comparison; p. 9,Value published in BEN 2021; 2021–2020 comparative balance.
+2021_BEN2021,2021,2021,generation,Gross generation,GWh,40576.2,BEN2021,Electricity balance comparison; p. 9,2021 preliminary; data cutoff 2022-07-31.
+2021_BEN2021,2021,2021,imports,Imports,GWh,0.0,BEN2021,Electricity balance comparison; p. 9,2021 preliminary; data cutoff 2022-07-31.
+2021_BEN2021,2021,2021,exports,Exports,GWh,21719.2,BEN2021,Electricity balance comparison; p. 9,2021 preliminary; data cutoff 2022-07-31.
+2021_BEN2021,2021,2021,own_use,Own use,GWh,279.6,BEN2021,Electricity balance comparison; p. 9,2021 preliminary; data cutoff 2022-07-31.
+2021_BEN2021,2021,2021,losses,Losses,GWh,4871.3,BEN2021,Electricity balance comparison; p. 9,2021 preliminary; data cutoff 2022-07-31.
+2021_BEN2021,2021,2021,consumption,Final consumption,GWh,13706.1,BEN2021,Electricity balance comparison; p. 9,2021 preliminary; data cutoff 2022-07-31.
+2021_BEN2022,2021,2022,generation,Gross generation,GWh,40576.2,BEN2022,Electricity balance comparison; p. 14,Comparative value in BEN 2022; matches BEN 2021.
+2021_BEN2022,2021,2022,imports,Imports,GWh,0.0,BEN2022,Electricity balance comparison; p. 14,Comparative value in BEN 2022; matches BEN 2021.
+2021_BEN2022,2021,2022,exports,Exports,GWh,21719.2,BEN2022,Electricity balance comparison; p. 14,Comparative value in BEN 2022; matches BEN 2021.
+2021_BEN2022,2021,2022,own_use,Own use,GWh,279.6,BEN2022,Electricity balance comparison; p. 14,Comparative value in BEN 2022; matches BEN 2021.
+2021_BEN2022,2021,2022,losses,Losses,GWh,4871.3,BEN2022,Electricity balance comparison; p. 14,Comparative value in BEN 2022; matches BEN 2021.
+2021_BEN2022,2021,2022,consumption,Final consumption,GWh,13706.1,BEN2022,Electricity balance comparison; p. 14,Comparative value in BEN 2022; matches BEN 2021.
+2022_BEN2022,2022,2022,generation,Gross generation,GWh,43880.8,BEN2022,Electricity balance comparison; p. 14,2022 preliminary; cutoff 2023-07-31; table follows the SIEN series.
+2022_BEN2022,2022,2022,imports,Imports,GWh,0.0,BEN2022,Electricity balance comparison; p. 14,2022 preliminary; cutoff 2023-07-31; table follows the SIEN series.
+2022_BEN2022,2022,2022,exports,Exports,GWh,23955.1,BEN2022,Electricity balance comparison; p. 14,2022 preliminary; cutoff 2023-07-31; table follows the SIEN series.
+2022_BEN2022,2022,2022,own_use,Own use,GWh,299.7,BEN2022,Electricity balance comparison; p. 14,2022 preliminary; cutoff 2023-07-31; table follows the SIEN series.
+2022_BEN2022,2022,2022,losses,Losses,GWh,5193.3,BEN2022,Electricity balance comparison; p. 14,2022 preliminary; cutoff 2023-07-31; table follows the SIEN series.
+2022_BEN2022,2022,2022,consumption,Final consumption,GWh,14432.6,BEN2022,Electricity balance comparison; p. 14,2022 preliminary; cutoff 2023-07-31; table follows the SIEN series.
+2022_BEN2023,2022,2023,generation,Gross generation,GWh,44109.6,BEN2023,Table 3; p. 28,2022 values restated under siePARAGUAY; gross generation includes autoproducers.
+2022_BEN2023,2022,2023,imports,Imports,GWh,0.0,BEN2023,Table 3; p. 28,2022 values restated under siePARAGUAY; gross generation includes autoproducers.
+2022_BEN2023,2022,2023,exports,Exports,GWh,23955.1,BEN2023,Table 3; p. 28,2022 values restated under siePARAGUAY; gross generation includes autoproducers.
+2022_BEN2023,2022,2023,own_use,Own use,GWh,299.7,BEN2023,Table 3; p. 28,2022 values restated under siePARAGUAY; gross generation includes autoproducers.
+2022_BEN2023,2022,2023,losses,Losses,GWh,5193.3,BEN2023,Table 3; p. 28,2022 values restated under siePARAGUAY; gross generation includes autoproducers.
+2022_BEN2023,2022,2023,consumption,Final consumption,GWh,14661.5,BEN2023,Table 3; p. 28,2022 values restated under siePARAGUAY; gross generation includes autoproducers.
+2023_BEN2023,2023,2023,generation,Gross generation,GWh,53041.7,BEN2023,Table 3; p. 28,2023 preliminary; data cutoff 2024-07-31.
+2023_BEN2023,2023,2023,imports,Imports,GWh,0.0,BEN2023,Table 3; p. 28,2023 preliminary; data cutoff 2024-07-31.
+2023_BEN2023,2023,2023,exports,Exports,GWh,30389.8,BEN2023,Table 3; p. 28,2023 preliminary; data cutoff 2024-07-31.
+2023_BEN2023,2023,2023,own_use,Own use,GWh,355.2,BEN2023,Table 3; p. 28,2023 preliminary; data cutoff 2024-07-31.
+2023_BEN2023,2023,2023,losses,Losses,GWh,6303.2,BEN2023,Table 3; p. 28,2023 preliminary; data cutoff 2024-07-31.
+2023_BEN2023,2023,2023,consumption,Final consumption,GWh,15993.6,BEN2023,Table 3; p. 28,2023 preliminary; data cutoff 2024-07-31.
+2023_BEN2024,2023,2024,generation,Gross generation,GWh,53041.7,BEN2024,Table 3; p. 48,2023 aggregate values reproduced in BEN 2024.
+2023_BEN2024,2023,2024,imports,Imports,GWh,0.0,BEN2024,Table 3; p. 48,2023 aggregate values reproduced in BEN 2024.
+2023_BEN2024,2023,2024,exports,Exports,GWh,30389.8,BEN2024,Table 3; p. 48,2023 aggregate values reproduced in BEN 2024.
+2023_BEN2024,2023,2024,own_use,Own use,GWh,355.2,BEN2024,Table 3; p. 48,2023 aggregate values reproduced in BEN 2024.
+2023_BEN2024,2023,2024,losses,Losses,GWh,6303.2,BEN2024,Table 3; p. 48,2023 aggregate values reproduced in BEN 2024.
+2023_BEN2024,2023,2024,consumption,Final consumption,GWh,15993.6,BEN2024,Table 3; p. 48,2023 aggregate values reproduced in BEN 2024.
+2024_BEN2024,2024,2024,generation,Gross generation,GWh,42676.2,BEN2024,Table 3; p. 48,2024 preliminary; data cutoff 2025-07-31.
+2024_BEN2024,2024,2024,imports,Imports,GWh,0.0,BEN2024,Table 3; p. 48,2024 preliminary; data cutoff 2025-07-31.
+2024_BEN2024,2024,2024,exports,Exports,GWh,15998.6,BEN2024,Table 3; p. 48,2024 preliminary; data cutoff 2025-07-31.
+2024_BEN2024,2024,2024,own_use,Own use,GWh,293.4,BEN2024,Table 3; p. 48,2024 preliminary; data cutoff 2025-07-31.
+2024_BEN2024,2024,2024,losses,Losses,GWh,6940.1,BEN2024,Table 3; p. 48,2024 preliminary; data cutoff 2025-07-31.
+2024_BEN2024,2024,2024,consumption,Final consumption,GWh,19444.2,BEN2024,Table 3; p. 48,2024 preliminary; data cutoff 2025-07-31.
+2024_BEN2025,2024,2025,generation,Gross generation,GWh,42718.6,BEN2025,Table 3; p. 49,2024 value revised in the BEN 2025 edition.
+2024_BEN2025,2024,2025,imports,Imports,GWh,0.0,BEN2025,Table 3; p. 49,2024 value revised in the BEN 2025 edition.
+2024_BEN2025,2024,2025,exports,Exports,GWh,15998.1,BEN2025,Table 3; p. 49,2024 value revised in the BEN 2025 edition.
+2024_BEN2025,2024,2025,own_use,Own use,GWh,293.7,BEN2025,Table 3; p. 49,2024 value revised in the BEN 2025 edition.
+2024_BEN2025,2024,2025,losses,Losses,GWh,6940.1,BEN2025,Table 3; p. 49,2024 value revised in the BEN 2025 edition.
+2024_BEN2025,2024,2025,consumption,Final consumption,GWh,19486.7,BEN2025,Table 3; p. 49,2024 value revised in the BEN 2025 edition.
+2025_BEN2025,2025,2025,generation,Gross generation,GWh,45569.1,BEN2025,Table 3; p. 49,2025 preliminary; data cutoff 2026-07-31.
+2025_BEN2025,2025,2025,imports,Imports,GWh,0.0,BEN2025,Table 3; p. 49,2025 preliminary; data cutoff 2026-07-31.
+2025_BEN2025,2025,2025,exports,Exports,GWh,15539.3,BEN2025,Table 3; p. 49,2025 preliminary; data cutoff 2026-07-31.
+2025_BEN2025,2025,2025,own_use,Own use,GWh,328.8,BEN2025,Table 3; p. 49,2025 preliminary; data cutoff 2026-07-31.
+2025_BEN2025,2025,2025,losses,Losses,GWh,7191.5,BEN2025,Table 3; p. 49,2025 preliminary; data cutoff 2026-07-31.
+2025_BEN2025,2025,2025,consumption,Final consumption,GWh,22509.5,BEN2025,Table 3; p. 49,2025 preliminary; data cutoff 2026-07-31.

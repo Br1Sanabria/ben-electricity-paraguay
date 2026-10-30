@@ -1,0 +1,11 @@
+id,function,source_key,locator,evidence_status,observation,inference_limit
+E01,Access and coordination,Ley7299,Article 1: amendment to Article 4 of Law 3009,T,MOPC/VMME authority and technical requirements involving ANDE,Does not measure effective independence or processing times
+E02,Access and coordination,Ley7599,Article 7,T,Regulatory authority: MOPC/VMME,Does not measure coordination quality
+E03,Connection and operation,Ley7299,"Article 1: amendments to Articles 4, 24, and 25",T,Technical requirements and dispatch rules,Does not identify available capacity or connection costs
+E04,Procurement,Ley7599,Articles 24–26,T,Contract term and pricing procedure,Does not demonstrate contract award or financial close
+E05,Delivery risk,Ley7599,Articles 28 and 29,T,Energy volumes and technical or operational constraints,Does not measure curtailed energy or compensation actually paid
+E06,Procedural development,Decreto6034,ANDE communication dated 19 May 2026,I,Institutional confirmation of implementing regulations,The full legal text and decree appendices were not audited
+E07,Delivery risk,Resoluciones2026,VMME index: subject of Resolution 994/2026,I,Evidence of constraints and compensation criteria,Appendices and implementation were not audited
+E08,Procurement,Resoluciones2026,VMME index: subject of Resolution 995/2026,I,Procedure for calculating the unit reference price,Appendices and applied values were not audited
+E09,Institutional access,Resoluciones2026,VMME index: subject of Resolution 996/2026,I,Licensing application requirements and process,Appendices and actual timelines were not audited
+E10,Performance,No aplicable,Case and project records were outside this study,NE,Operational outcomes were not evaluated,Does not imply that projects do not exist or that requirements were breached
