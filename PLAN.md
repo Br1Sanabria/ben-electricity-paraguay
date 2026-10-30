@@ -17,9 +17,9 @@ Preparar un repositorio versionable en GitHub con una base consultable y trazabl
 | Responsable | Tarea | Estado |
 | --- | --- | --- |
 | Agente 1: inventario BEN | Identificar ediciones, tablas, campos, recuentos y límites de comparabilidad en los archivos fuente | Completado |
-| Agente 2: acceso a GitHub | Revisar repositorio local, herramientas y requisitos de publicación sin exponer credenciales | Completado; falta conectar GitHub y definir destino/visibilidad |
+| Agente 2: acceso a GitHub | Revisar repositorio local, herramientas y requisitos de publicación sin exponer credenciales | Completado; repositorio público creado y acceso de escritura verificado |
 | Agente 3: arquitectura | Recomendar estructura de datos, tablas canónicas, resultados derivados y flujo de actualización | Completado |
-| Agente coordinador | Integrar la extracción, crear esquema SQLite y generador, documentar consultas y preparar el repositorio local | Completado en local; publicación pendiente de conectar GitHub y definir destino |
+| Agente coordinador | Integrar la extracción, crear esquema SQLite y generador, documentar consultas y preparar el repositorio local | Completado; archivos publicados y 17 rutas verificadas |
 
 ## Entregables
 
@@ -28,7 +28,7 @@ Preparar un repositorio versionable en GitHub con una base consultable y trazabl
 3. CSV de resultados derivados del análisis, identificados como tales.
 4. Esquema SQL y script Python de biblioteca estándar para reconstruir la base SQLite.
 5. README en español con cobertura, procedencia, limitaciones y consultas de ejemplo.
-6. Repositorio Git local listo para publicar en GitHub.
+6. Repositorio GitHub con la base consultable y sus fuentes de trazabilidad.
 
 ## Criterios de aceptación
 
@@ -46,8 +46,8 @@ Preparar un repositorio versionable en GitHub con una base consultable y trazabl
 3. Crear el esquema SQL y el generador de SQLite. **Completado.**
 4. Documentar las tablas, ejemplos de consulta y pasos para actualizar una edición. **Completado.**
 5. Preparar el repositorio Git local. **Completado.**
-6. Publicar el contenido en Br1Sanabria/ben-electricity-paraguay y verificar que los archivos de datos estén disponibles. **En curso.**
+6. Publicar el contenido en Br1Sanabria/ben-electricity-paraguay y verificar que los archivos de datos estén disponibles. **Completado.**
 
 ## Decisión de publicación
 
-El repositorio de destino es Br1Sanabria/ben-electricity-paraguay, público, creado por el propietario. La carga de los archivos está en curso.
+El repositorio de destino es Br1Sanabria/ben-electricity-paraguay, público, creado por el propietario. La carga se completó; el commit de datos 3c8bd3c8863f2617c901f769f11f0c1e8262f472 contiene las 17 rutas iniciales.
