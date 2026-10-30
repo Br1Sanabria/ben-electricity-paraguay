@@ -1,0 +1,108 @@
+edition_id,base_year,end_year,indicator_code,label_original,value_base_gwh,value_end_gwh,published_change_percent,source_file,printed_page,data_status_note
+BEN2020,2019,2020,generation_gross,Generación bruta,49447.5,46373.0,-6.22,BEN_2020_Paraguay.md,Cotejar página impresa,Preliminar; corte 31-07-2021
+BEN2020,2019,2020,generation_acaray,└ CHE Acaray,979.9,579.0,-40.91,BEN_2020_Paraguay.md,Cotejar página impresa,Preliminar; corte 31-07-2021
+BEN2020,2019,2020,generation_binational,└ Binacionales,48465.5,45792.0,-5.52,BEN_2020_Paraguay.md,Cotejar página impresa,Preliminar; corte 31-07-2021
+BEN2020,2019,2020,generation_thermal,└ Térmica,2.0,1.9,-6.01,BEN_2020_Paraguay.md,Cotejar página impresa,Preliminar; corte 31-07-2021
+BEN2020,2019,2020,imports,Importación,0.0,0.0,,BEN_2020_Paraguay.md,Cotejar página impresa,Preliminar; corte 31-07-2021
+BEN2020,2019,2020,exports,Exportación,-31748.0,-28004.8,-11.79,BEN_2020_Paraguay.md,Cotejar página impresa,Preliminar; corte 31-07-2021
+BEN2020,2019,2020,own_use_power_sector,Consumo en centrales/autoconsumo ANDE,-389.6,-421.8,8.26,BEN_2020_Paraguay.md,Cotejar página impresa,Preliminar; corte 31-07-2021
+BEN2020,2019,2020,losses_total,Pérdidas,-4470.2,-4227.5,-5.43,BEN_2020_Paraguay.md,Cotejar página impresa,Preliminar; corte 31-07-2021
+BEN2020,2019,2020,domestic_supply_demand,OFERTA,12839.8,13718.9,6.85,BEN_2020_Paraguay.md,Cotejar página impresa,Preliminar; corte 31-07-2021
+BEN2020,2019,2020,consumption_residential,Residencial,5534.0,6403.3,15.71,BEN_2020_Paraguay.md,Cotejar página impresa,Preliminar; corte 31-07-2021
+BEN2020,2019,2020,consumption_commercial,Comercial,2323.1,2276.6,-2.00,BEN_2020_Paraguay.md,Cotejar página impresa,Preliminar; corte 31-07-2021
+BEN2020,2019,2020,consumption_industry,Industria,2390.9,2379.0,-0.50,BEN_2020_Paraguay.md,Cotejar página impresa,Preliminar; corte 31-07-2021
+BEN2020,2019,2020,consumption_public_lighting,Alumbrado público y otros,507.4,516.7,1.82,BEN_2020_Paraguay.md,Cotejar página impresa,Preliminar; corte 31-07-2021
+BEN2020,2019,2020,consumption_public_other,Público y otros,2084.4,2143.4,2.83,BEN_2020_Paraguay.md,Cotejar página impresa,Preliminar; corte 31-07-2021
+BEN2020,2019,2020,final_consumption,CONSUMO FINAL,12839.8,13718.9,6.85,BEN_2020_Paraguay.md,Cotejar página impresa,Preliminar; corte 31-07-2021
+BEN2021,2020,2021,generation_gross,Generación bruta,46373.0,40576.2,-12.50,BEN_2021_Paraguay.md,p. 9,Preliminar; corte 31-07-2022
+BEN2021,2020,2021,generation_acaray,└ CHE Acaray,579.0,622.4,7.48,BEN_2021_Paraguay.md,p. 9,Preliminar; corte 31-07-2022
+BEN2021,2020,2021,generation_binational,└ Binacionales,45792.0,39951.9,-12.75,BEN_2021_Paraguay.md,p. 9,Preliminar; corte 31-07-2022
+BEN2021,2020,2021,generation_thermal,└ Térmica,1.9,2.0,3.01,BEN_2021_Paraguay.md,p. 9,Preliminar; corte 31-07-2022
+BEN2021,2020,2021,imports,Importación,0.0,0.0,,BEN_2021_Paraguay.md,p. 9,Preliminar; corte 31-07-2022
+BEN2021,2020,2021,exports,Exportación,-28004.8,-21719.2,-22.44,BEN_2021_Paraguay.md,p. 9,Preliminar; corte 31-07-2022
+BEN2021,2020,2021,own_use_power_sector,Consumo en centrales/autoconsumo ANDE,-421.8,-279.6,-33.72,BEN_2021_Paraguay.md,p. 9,Preliminar; corte 31-07-2022
+BEN2021,2020,2021,losses_total,Pérdidas,-4227.5,-4871.3,15.23,BEN_2021_Paraguay.md,p. 9,Preliminar; corte 31-07-2022
+BEN2021,2020,2021,other_transmision,└ Transmisión,900.6,880.1,-2.27,BEN_2021_Paraguay.md,p. 9,Preliminar; corte 31-07-2022
+BEN2021,2020,2021,other_distribucion,└ Distribución,3326.9,3991.2,19.97,BEN_2021_Paraguay.md,p. 9,Preliminar; corte 31-07-2022
+BEN2021,2020,2021,domestic_supply_demand,OFERTA,13718.9,13706.1,-0.09,BEN_2021_Paraguay.md,p. 9,Preliminar; corte 31-07-2022
+BEN2021,2020,2021,consumption_residential,Residencial,6403.3,6175.0,-3.56,BEN_2021_Paraguay.md,p. 9,Preliminar; corte 31-07-2022
+BEN2021,2020,2021,consumption_commercial,Comercial,2276.6,2344.9,3.00,BEN_2021_Paraguay.md,p. 9,Preliminar; corte 31-07-2022
+BEN2021,2020,2021,consumption_industry,Industria,2379.0,2451.2,3.03,BEN_2021_Paraguay.md,p. 9,Preliminar; corte 31-07-2022
+BEN2021,2020,2021,consumption_public_lighting,Alumbrado público,516.7,524.4,1.49,BEN_2021_Paraguay.md,p. 9,Preliminar; corte 31-07-2022
+BEN2021,2020,2021,consumption_public_other,Público y otros,2143.4,2210.6,3.14,BEN_2021_Paraguay.md,p. 9,Preliminar; corte 31-07-2022
+BEN2021,2020,2021,final_consumption,CONSUMO FINAL,13718.9,13706.1,-0.09,BEN_2021_Paraguay.md,p. 9,Preliminar; corte 31-07-2022
+BEN2022,2021,2022,generation_gross,Generación Bruta,40576.2,43880.8,8.10,BEN_2022_Paraguay.md,p. 14,Preliminar; corte 31-07-2023
+BEN2022,2021,2022,generation_acaray,CHE Acaray,622.4,781.3,25.50,BEN_2022_Paraguay.md,p. 14,Preliminar; corte 31-07-2023
+BEN2022,2021,2022,generation_binational,Binacionales,39951.9,43098.1,7.90,BEN_2022_Paraguay.md,p. 14,Preliminar; corte 31-07-2023
+BEN2022,2021,2022,generation_thermal,Térmica,2.0,1.3,-31.90,BEN_2022_Paraguay.md,p. 14,Preliminar; corte 31-07-2023
+BEN2022,2021,2022,imports,Importación,,,,BEN_2022_Paraguay.md,p. 14,Preliminar; corte 31-07-2023
+BEN2022,2021,2022,exports,Exportación,-21719.2,-23955.1,10.30,BEN_2022_Paraguay.md,p. 14,Preliminar; corte 31-07-2023
+BEN2022,2021,2022,own_use_power_sector,Consumo en centrales/ autoconsumo ANDE,-279.6,-299.7,7.20,BEN_2022_Paraguay.md,p. 14,Preliminar; corte 31-07-2023
+BEN2022,2021,2022,losses_total,Pérdidas,-4871.3,-5193.3,6.60,BEN_2022_Paraguay.md,p. 14,Preliminar; corte 31-07-2023
+BEN2022,2021,2022,losses_transmission,Transmisión,880.1,1012.8,15.10,BEN_2022_Paraguay.md,p. 14,Preliminar; corte 31-07-2023
+BEN2022,2021,2022,losses_distribution,Distribución,3991.2,4180.5,4.70,BEN_2022_Paraguay.md,p. 14,Preliminar; corte 31-07-2023
+BEN2022,2021,2022,domestic_supply_demand,OFERTA,13706.1,14432.6,5.30,BEN_2022_Paraguay.md,p. 14,Preliminar; corte 31-07-2023
+BEN2022,2021,2022,consumption_residential,Residencial,6175.0,6312.7,2.20,BEN_2022_Paraguay.md,p. 14,Preliminar; corte 31-07-2023
+BEN2022,2021,2022,consumption_commercial,Comercial,2344.9,2480.0,5.80,BEN_2022_Paraguay.md,p. 14,Preliminar; corte 31-07-2023
+BEN2022,2021,2022,consumption_industry,Industria,2451.2,2460.9,0.40,BEN_2022_Paraguay.md,p. 14,Preliminar; corte 31-07-2023
+BEN2022,2021,2022,consumption_public_lighting,Alumbrado Público y otros,524.4,528.1,0.70,BEN_2022_Paraguay.md,p. 14,Preliminar; corte 31-07-2023
+BEN2022,2021,2022,consumption_public_other,Público y otros *,2210.6,2650.9,19.90,BEN_2022_Paraguay.md,p. 14,Preliminar; corte 31-07-2023
+BEN2022,2021,2022,final_consumption,CONSUMO FINAL,13706.1,14432.6,5.30,BEN_2022_Paraguay.md,p. 14,Preliminar; corte 31-07-2023
+BEN2023,2022,2023,generation_gross,Generación Bruta,44109.6,53041.7,20.20,BEN_2023_Paraguay.md,p. 28,Preliminar; corte 31-07-2024
+BEN2023,2022,2023,generation_power_plants,Centrales eléctricas,43880.8,52812.9,20.40,BEN_2023_Paraguay.md,p. 28,Preliminar; corte 31-07-2024
+BEN2023,2022,2023,generation_acaray,CHE Acaray,781.3,795.3,1.80,BEN_2023_Paraguay.md,p. 28,Preliminar; corte 31-07-2024
+BEN2023,2022,2023,generation_binational,Binacionales,43098.1,52016.5,20.70,BEN_2023_Paraguay.md,p. 28,Preliminar; corte 31-07-2024
+BEN2023,2022,2023,generation_thermal,Térmica,1.3,1.1,-15.70,BEN_2023_Paraguay.md,p. 28,Preliminar; corte 31-07-2024
+BEN2023,2022,2023,generation_autoproducers,Autoproductores,228.9,228.9,0.00,BEN_2023_Paraguay.md,p. 28,Preliminar; corte 31-07-2024
+BEN2023,2022,2023,imports,Importación,0.0,0.0,,BEN_2023_Paraguay.md,p. 28,Preliminar; corte 31-07-2024
+BEN2023,2022,2023,exports,Exportación,-23955.1,-30389.8,26.90,BEN_2023_Paraguay.md,p. 28,Preliminar; corte 31-07-2024
+BEN2023,2022,2023,own_use_power_sector,Consumo en centrales/ autoconsumo ANDE,-299.7,-355.2,18.50,BEN_2023_Paraguay.md,p. 28,Preliminar; corte 31-07-2024
+BEN2023,2022,2023,losses_total,Pérdidas,-5193.3,-6303.2,21.40,BEN_2023_Paraguay.md,p. 28,Preliminar; corte 31-07-2024
+BEN2023,2022,2023,losses_transmission,Transmisión,-1012.8,-1132.2,11.80,BEN_2023_Paraguay.md,p. 28,Preliminar; corte 31-07-2024
+BEN2023,2022,2023,losses_distribution,Distribución,-4180.5,-5170.9,23.70,BEN_2023_Paraguay.md,p. 28,Preliminar; corte 31-07-2024
+BEN2023,2022,2023,domestic_supply_demand,OFERTA,14661.5,15993.6,9.10,BEN_2023_Paraguay.md,p. 28,Preliminar; corte 31-07-2024
+BEN2023,2022,2023,consumption_industry,Industrial,2689.8,2766.1,2.80,BEN_2023_Paraguay.md,p. 28,Preliminar; corte 31-07-2024
+BEN2023,2022,2023,consumption_residential,Residencial,6312.7,6686.3,5.90,BEN_2023_Paraguay.md,p. 28,Preliminar; corte 31-07-2024
+BEN2023,2022,2023,consumption_other_sectors,Otros sectores,5659.0,6541.2,15.60,BEN_2023_Paraguay.md,p. 28,Preliminar; corte 31-07-2024
+BEN2023,2022,2023,consumption_commercial_public_services,Comercial y servicios públicos,3008.1,3149.5,4.70,BEN_2023_Paraguay.md,p. 28,Preliminar; corte 31-07-2024
+BEN2023,2022,2023,consumption_unspecified,Otros no especificados,2650.9,3391.7,27.90,BEN_2023_Paraguay.md,p. 28,Preliminar; corte 31-07-2024
+BEN2023,2022,2023,final_consumption,CONSUMO FINAL,14661.5,15993.6,9.10,BEN_2023_Paraguay.md,p. 28,Preliminar; corte 31-07-2024
+BEN2024,2023,2024,generation_gross,Generación Bruta,53041.7,42676.2,-19.50,BEN_2024_Paraguay.md,p. 48,Preliminar; corte 31-07-2025
+BEN2024,2023,2024,generation_power_plants,Centrales eléctricas,52812.9,42437.3,-19.60,BEN_2024_Paraguay.md,p. 48,Preliminar; corte 31-07-2025
+BEN2024,2023,2024,generation_acaray,CHE Acaray,795.3,767.7,-3.50,BEN_2024_Paraguay.md,p. 48,Preliminar; corte 31-07-2025
+BEN2024,2023,2024,generation_binational,Binacionales,52016.5,41669.1,-19.90,BEN_2024_Paraguay.md,p. 48,Preliminar; corte 31-07-2025
+BEN2024,2023,2024,generation_thermal,Térmica,1.1,0.5,-60.20,BEN_2024_Paraguay.md,p. 48,Preliminar; corte 31-07-2025
+BEN2024,2023,2024,generation_autoproducers,Autoproductores,228.9,239.0,4.40,BEN_2024_Paraguay.md,p. 48,Preliminar; corte 31-07-2025
+BEN2024,2023,2024,imports,Importación,0.0,0.0,,BEN_2024_Paraguay.md,p. 48,Preliminar; corte 31-07-2025
+BEN2024,2023,2024,exports,Exportación,-30389.8,-15998.6,-47.40,BEN_2024_Paraguay.md,p. 48,Preliminar; corte 31-07-2025
+BEN2024,2023,2024,own_use_power_sector,Consumo en centrales/ autoconsumo ANDE,-355.2,-293.4,-17.40,BEN_2024_Paraguay.md,p. 48,Preliminar; corte 31-07-2025
+BEN2024,2023,2024,losses_total,Pérdidas,-6303.2,-6940.1,10.10,BEN_2024_Paraguay.md,p. 48,Preliminar; corte 31-07-2025
+BEN2024,2023,2024,losses_transmission,Transmisión,-1132.2,-1214.2,7.20,BEN_2024_Paraguay.md,p. 48,Preliminar; corte 31-07-2025
+BEN2024,2023,2024,losses_distribution,Distribución,-5170.9,-5725.9,10.70,BEN_2024_Paraguay.md,p. 48,Preliminar; corte 31-07-2025
+BEN2024,2023,2024,domestic_supply_demand,OFERTA,15993.6,19444.2,21.60,BEN_2024_Paraguay.md,p. 48,Preliminar; corte 31-07-2025
+BEN2024,2023,2024,consumption_industry,Industrial,2766.1,2879.5,4.10,BEN_2024_Paraguay.md,p. 48,Preliminar; corte 31-07-2025
+BEN2024,2023,2024,consumption_residential,Residencial,6686.3,7672.2,14.70,BEN_2024_Paraguay.md,p. 48,Preliminar; corte 31-07-2025
+BEN2024,2023,2024,consumption_other_sectors,Otros sectores,6541.2,8892.5,35.90,BEN_2024_Paraguay.md,p. 48,Preliminar; corte 31-07-2025
+BEN2024,2023,2024,consumption_commercial_public_services,Comercial y servicios públicos,4800.1,4949.6,3.10,BEN_2024_Paraguay.md,p. 48,Preliminar; corte 31-07-2025
+BEN2024,2023,2024,consumption_unspecified,Otros no especificados,1741.1,3942.8,126.50,BEN_2024_Paraguay.md,p. 48,Preliminar; corte 31-07-2025
+BEN2024,2023,2024,final_consumption,CONSUMO FINAL,15993.6,19444.2,21.60,BEN_2024_Paraguay.md,p. 48,Preliminar; corte 31-07-2025
+BEN2025,2024,2025,generation_gross,Generación Bruta,42718.6,45569.1,6.70,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026
+BEN2025,2024,2025,generation_power_plants,Centrales eléctricas,42437.2,45282.7,6.70,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026
+BEN2025,2024,2025,generation_ande,ANDE,768.2,697.6,-9.20,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026
+BEN2025,2024,2025,generation_ande_hydro_solar,Hidroeléctrica + Solar,767.7,695.7,-9.40,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026
+BEN2025,2024,2025,generation_thermal,Térmica,0.5,1.9,322.20,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026
+BEN2025,2024,2025,generation_binational,Binacionales,41669.0,44585.1,7.00,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026
+BEN2025,2024,2025,generation_autoproducers,Autoproductores,281.4,286.4,1.80,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026
+BEN2025,2024,2025,imports,Importación,0.0,0.0,,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026
+BEN2025,2024,2025,exports,Exportación,-15998.1,-15539.3,-2.90,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026
+BEN2025,2024,2025,own_use_power_sector,Consumo en centrales / autoconsumo ANDE,-293.7,-328.8,12.00,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026
+BEN2025,2024,2025,losses_total,Pérdidas Totales,-6940.1,-7191.5,3.60,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026
+BEN2025,2024,2025,losses_transmission,Transmisión,-1214.2,-1298.7,7.00,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026
+BEN2025,2024,2025,losses_distribution,Distribución,-5725.9,-5892.8,2.90,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026
+BEN2025,2024,2025,domestic_supply_demand,OFERTA / DEMANDA INTERNA,19486.7,22509.5,15.50,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026
+BEN2025,2024,2025,consumption_industry,Industrial,2921.9,3059.6,4.70,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026
+BEN2025,2024,2025,consumption_residential,Residencial,7064.4,7425.6,5.10,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026
+BEN2025,2024,2025,consumption_other_sectors,Otros sectores,9500.3,12024.3,26.60,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026
+BEN2025,2024,2025,consumption_commercial_public_services,Comercial y Servicios Públicos,4949.6,5228.4,5.60,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026
+BEN2025,2024,2025,consumption_unspecified,Otros no especificados,4550.7,6796.0,49.30,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026
+BEN2025,2024,2025,final_consumption,CONSUMO FINAL,19486.7,22509.5,15.50,BEN_2025_Paraguay.md,p. 49,Preliminar; corte 31-07-2026

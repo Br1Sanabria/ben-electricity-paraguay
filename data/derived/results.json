@@ -1,0 +1,429 @@
+{
+  "comparisons": {
+    "2020-2021": {
+      "start_year": "2020",
+      "end_year": "2021",
+      "export_change_gwh": "-6285.6",
+      "export_contraction_gwh": "6285.6",
+      "export_flow_components_gwh": {
+        "Cambio de generación": "5796.8",
+        "Cambio de consumo final": "-12.8",
+        "Cambio de pérdidas": "643.8",
+        "Cambio de consumo propio": "-142.2",
+        "Cambio de importaciones": "0.0",
+        "Cambio del residuo": "0.0"
+      },
+      "export_flow_components_percent": {
+        "Cambio de generación": "92.22349497263586610665648466",
+        "Cambio de consumo final": "-0.2036400661830215094819905816",
+        "Cambio de pérdidas": "10.24245895379915998472699504",
+        "Cambio de consumo propio": "-2.262313860252004581901489118",
+        "Cambio de importaciones": "0",
+        "Cambio del residuo": "0"
+      },
+      "national_market_growth_gwh": "488.8",
+      "national_market_contribution_percent": "7.776505027364133893343515337",
+      "balance_change_percent": {
+        "generation": "-12.50037737476548853858926531",
+        "exports": "-22.44472376164086156658858481",
+        "own_use": "-33.71266002844950213371266003",
+        "losses": "15.22885866351271437019515080",
+        "consumption": "-0.09330194111772809773378332082"
+      },
+      "balance_residual_gwh": {
+        "2020": "0.0",
+        "2021": "0.0"
+      },
+      "demand_generation_percent": {
+        "2020": "29.58380954434692601298169193",
+        "2021": "33.77866828337794076330459728"
+      },
+      "loss_share_percent": {
+        "2020": "23.55625640797040074889671466",
+        "2021": "26.22164565547385532959402284"
+      },
+      "loss_share_change_pp": "2.66538924750345458069730818"
+    },
+    "2021-2022": {
+      "start_year": "2021",
+      "end_year": "2022",
+      "export_change_gwh": "2235.9",
+      "export_contraction_gwh": "-2235.9",
+      "export_flow_components_gwh": {
+        "Cambio de generación": "-3304.6",
+        "Cambio de consumo final": "726.5",
+        "Cambio de pérdidas": "322.0",
+        "Cambio de consumo propio": "20.1",
+        "Cambio de importaciones": "0.0",
+        "Cambio del residuo": "0.1"
+      },
+      "export_flow_components_percent": {
+        "Cambio de generación": "147.7973075718949863589605975",
+        "Cambio de consumo final": "-32.49250860950847533431727716",
+        "Cambio de pérdidas": "-14.40135963146831253633883447",
+        "Cambio de consumo propio": "-0.8989668589829598819267409097",
+        "Cambio de importaciones": "-0",
+        "Cambio del residuo": "-0.004472471935238606377744979650"
+      },
+      "national_market_growth_gwh": "1068.6",
+      "national_market_contribution_percent": "-47.79283509995974775258285254",
+      "balance_change_percent": {
+        "generation": "8.144183043261813575445704625",
+        "exports": "10.29457806917381855685292276",
+        "own_use": "7.188841201716738197424892704",
+        "losses": "6.610145135795372898404943239",
+        "consumption": "5.300559604847476670971319340"
+      },
+      "balance_residual_gwh": {
+        "2021": "0.0",
+        "2022": "0.1"
+      },
+      "demand_generation_percent": {
+        "2021": "33.77866828337794076330459728",
+        "2022": "32.89046690124154527720552041"
+      },
+      "loss_share_percent": {
+        "2021": "26.22164565547385532959402284",
+        "2022": "26.46146163997574633519991440"
+      },
+      "loss_share_change_pp": "0.23981598450189100560589156"
+    },
+    "2022-2023": {
+      "start_year": "2022",
+      "end_year": "2023",
+      "export_change_gwh": "6434.7",
+      "export_contraction_gwh": "-6434.7",
+      "export_flow_components_gwh": {
+        "Cambio de generación": "-8932.1",
+        "Cambio de consumo final": "1332.1",
+        "Cambio de pérdidas": "1109.9",
+        "Cambio de consumo propio": "55.5",
+        "Cambio de importaciones": "0.0",
+        "Cambio del residuo": "-0.1"
+      },
+      "export_flow_components_percent": {
+        "Cambio de generación": "138.8114442009728503271325781",
+        "Cambio de consumo final": "-20.70181982065985982252474863",
+        "Cambio de pérdidas": "-17.24866738154070896856108288",
+        "Cambio de consumo propio": "-0.8625110727772856543428598070",
+        "Cambio de importaciones": "-0",
+        "Cambio del residuo": "0.001554074005004118296113260913"
+      },
+      "national_market_growth_gwh": "2497.5",
+      "national_market_contribution_percent": "-38.81299827497785444542869131",
+      "balance_change_percent": {
+        "generation": "20.24978689446288336325879174",
+        "exports": "26.86150339593656465637797379",
+        "own_use": "18.51851851851851851851851852",
+        "losses": "21.37176746962432364777694337",
+        "consumption": "9.085700644545237526856051564"
+      },
+      "balance_residual_gwh": {
+        "2022": "0.0",
+        "2023": "-0.1"
+      },
+      "demand_generation_percent": {
+        "2022": "33.23879608974010192792498685",
+        "2023": "30.15287971539373738021217269"
+      },
+      "loss_share_percent": {
+        "2022": "26.15639543082780989987307855",
+        "2023": "28.26952746582469233253202253"
+      },
+      "loss_share_change_pp": "2.11313203499688243265894398"
+    },
+    "2023-2024": {
+      "start_year": "2023",
+      "end_year": "2024",
+      "export_change_gwh": "-14391.2",
+      "export_contraction_gwh": "14391.2",
+      "export_flow_components_gwh": {
+        "Cambio de generación": "10365.5",
+        "Cambio de consumo final": "3450.6",
+        "Cambio de pérdidas": "636.9",
+        "Cambio de consumo propio": "-61.8",
+        "Cambio de importaciones": "0.0",
+        "Cambio del residuo": "0.0"
+      },
+      "export_flow_components_percent": {
+        "Cambio de generación": "72.02665517816443382066818611",
+        "Cambio de consumo final": "23.97715270443048529657012619",
+        "Cambio de pérdidas": "4.425621212963477680804936350",
+        "Cambio de consumo propio": "-0.4294290955583967980432486520",
+        "Cambio de importaciones": "0",
+        "Cambio del residuo": "0"
+      },
+      "national_market_growth_gwh": "4025.7",
+      "national_market_contribution_percent": "27.97334482183556617933181389",
+      "balance_change_percent": {
+        "generation": "-19.54217153673430527302103816",
+        "exports": "-47.35536265457489025923171590",
+        "own_use": "-17.39864864864864864864864865",
+        "losses": "10.10439142023099378093666709",
+        "consumption": "21.57487995198079231692677071"
+      },
+      "balance_residual_gwh": {
+        "2023": "-0.1",
+        "2024": "-0.1"
+      },
+      "demand_generation_percent": {
+        "2023": "30.15287971539373738021217269",
+        "2024": "45.56216345410322381092974539"
+      },
+      "loss_share_percent": {
+        "2023": "28.26952746582469233253202253",
+        "2024": "26.30390042563190988580329969"
+      },
+      "loss_share_change_pp": "-1.96562704019278244672872284",
+      "sector_growth_gwh": {
+        "industrial": "113.4",
+        "residential": "985.9",
+        "commercial": "149.5",
+        "unspecified": "2201.7"
+      },
+      "sector_growth_percent": {
+        "industrial": "3.286384976525821596244131455",
+        "residential": "28.57184257810235901002724164",
+        "commercial": "4.332579841187039935083753550",
+        "unspecified": "63.80629455746826638845418188"
+      },
+      "sector_residual_gwh": {
+        "2023": "0.0",
+        "2024": "0.1"
+      }
+    },
+    "2024-2025": {
+      "start_year": "2024",
+      "end_year": "2025",
+      "export_change_gwh": "-458.8",
+      "export_contraction_gwh": "458.8",
+      "export_flow_components_gwh": {
+        "Cambio de generación": "-2850.5",
+        "Cambio de consumo final": "3022.8",
+        "Cambio de pérdidas": "251.4",
+        "Cambio de consumo propio": "35.1",
+        "Cambio de importaciones": "0.0",
+        "Cambio del residuo": "0.0"
+      },
+      "export_flow_components_percent": {
+        "Cambio de generación": "-621.2946817785527462946817786",
+        "Cambio de consumo final": "658.8491717523975588491717524",
+        "Cambio de pérdidas": "54.79511769834350479511769834",
+        "Cambio de consumo propio": "7.650392327811682650392327812",
+        "Cambio de importaciones": "0",
+        "Cambio del residuo": "0"
+      },
+      "national_market_growth_gwh": "3309.3",
+      "national_market_contribution_percent": "721.2946817785527462946817786",
+      "balance_change_percent": {
+        "generation": "6.672737402442963954811253178",
+        "exports": "-2.867840556066032841399916240",
+        "own_use": "11.95097037793667007150153218",
+        "losses": "3.622426189824354115934928892",
+        "consumption": "15.51211852186363006563450969"
+      },
+      "balance_residual_gwh": {
+        "2024": "0.0",
+        "2025": "0.0"
+      },
+      "demand_generation_percent": {
+        "2024": "45.61642937736723581765320025",
+        "2025": "49.39641116458301787834299997"
+      },
+      "loss_share_percent": {
+        "2024": "26.26159807468176245326713791",
+        "2025": "24.21298946163428840779771725"
+      },
+      "loss_share_change_pp": "-2.04860861304747404546942066",
+      "sector_growth_gwh": {
+        "industrial": "137.7",
+        "residential": "361.2",
+        "commercial": "278.8",
+        "unspecified": "2245.3"
+      },
+      "sector_growth_percent": {
+        "industrial": "4.555379118697895990472409686",
+        "residential": "11.94918618499404525605398968",
+        "commercial": "9.223236734153764721450310970",
+        "unspecified": "74.27881434431652772264125976"
+      },
+      "sector_residual_gwh": {
+        "2024": "0.1",
+        "2025": "-0.1"
+      }
+    }
+  },
+  "latest_vintage_series": {
+    "2020": {
+      "generation": "46373.0",
+      "imports": "0.0",
+      "exports": "28004.8",
+      "own_use": "421.8",
+      "losses": "4227.5",
+      "consumption": "13718.9",
+      "source": {
+        "year": "2020",
+        "edition": "2021",
+        "source_key": "BEN2021",
+        "locator": "Comparativo del balance de electricidad; p. 9",
+        "status": "Valor publicado en BEN 2021; balance comparativo 2021–2020."
+      }
+    },
+    "2021": {
+      "generation": "40576.2",
+      "imports": "0.0",
+      "exports": "21719.2",
+      "own_use": "279.6",
+      "losses": "4871.3",
+      "consumption": "13706.1",
+      "source": {
+        "year": "2021",
+        "edition": "2022",
+        "source_key": "BEN2022",
+        "locator": "Comparativo del balance de electricidad; p. 14",
+        "status": "Valor comparativo BEN 2022; coincide con BEN 2021."
+      }
+    },
+    "2022": {
+      "generation": "44109.6",
+      "imports": "0.0",
+      "exports": "23955.1",
+      "own_use": "299.7",
+      "losses": "5193.3",
+      "consumption": "14661.5",
+      "source": {
+        "year": "2022",
+        "edition": "2023",
+        "source_key": "BEN2023",
+        "locator": "Cuadro 3; p. 28",
+        "status": "Año 2022 reexpresado bajo siePARAGUAY; generación bruta incluye autoproductores."
+      }
+    },
+    "2023": {
+      "generation": "53041.7",
+      "imports": "0.0",
+      "exports": "30389.8",
+      "own_use": "355.2",
+      "losses": "6303.2",
+      "consumption": "15993.6",
+      "source": {
+        "year": "2023",
+        "edition": "2024",
+        "source_key": "BEN2024",
+        "locator": "Cuadro 3; p. 48",
+        "status": "Valores agregados de 2023 reproducidos en BEN 2024."
+      }
+    },
+    "2024": {
+      "generation": "42718.6",
+      "imports": "0.0",
+      "exports": "15998.1",
+      "own_use": "293.7",
+      "losses": "6940.1",
+      "consumption": "19486.7",
+      "source": {
+        "year": "2024",
+        "edition": "2025",
+        "source_key": "BEN2025",
+        "locator": "Cuadro 3; p. 49",
+        "status": "Valor de 2024 revisado en la edición BEN 2025."
+      }
+    },
+    "2025": {
+      "generation": "45569.1",
+      "imports": "0.0",
+      "exports": "15539.3",
+      "own_use": "328.8",
+      "losses": "7191.5",
+      "consumption": "22509.5",
+      "source": {
+        "year": "2025",
+        "edition": "2025",
+        "source_key": "BEN2025",
+        "locator": "Cuadro 3; p. 49",
+        "status": "Año 2025 preliminar; corte de información 31-07-2026."
+      }
+    }
+  },
+  "latest_vintage_endpoint_change_percent_2020_2025": {
+    "generation": "-1.733551851292778125202165053",
+    "exports": "-44.51201222647546134948294578",
+    "consumption": "64.07656590542973562020278594"
+  },
+  "edition_revisions": {
+    "2021": {
+      "from_observation": "2021_BEN2021",
+      "to_observation": "2021_BEN2022",
+      "change_gwh": {
+        "generation": "0.0",
+        "imports": "0.0",
+        "exports": "0.0",
+        "own_use": "0.0",
+        "losses": "0.0",
+        "consumption": "0.0"
+      }
+    },
+    "2022": {
+      "from_observation": "2022_BEN2022",
+      "to_observation": "2022_BEN2023",
+      "change_gwh": {
+        "generation": "228.8",
+        "imports": "0.0",
+        "exports": "0.0",
+        "own_use": "0.0",
+        "losses": "0.0",
+        "consumption": "228.9"
+      }
+    },
+    "2023": {
+      "from_observation": "2023_BEN2023",
+      "to_observation": "2023_BEN2024",
+      "change_gwh": {
+        "generation": "0.0",
+        "imports": "0.0",
+        "exports": "0.0",
+        "own_use": "0.0",
+        "losses": "0.0",
+        "consumption": "0.0"
+      }
+    },
+    "2024": {
+      "from_observation": "2024_BEN2024",
+      "to_observation": "2024_BEN2025",
+      "change_gwh": {
+        "generation": "42.4",
+        "imports": "0.0",
+        "exports": "-0.5",
+        "own_use": "0.3",
+        "losses": "0.0",
+        "consumption": "42.5"
+      }
+    }
+  },
+  "revision_2022_gwh": {
+    "generation": "228.8",
+    "imports": "0.0",
+    "exports": "0.0",
+    "own_use": "0.0",
+    "losses": "0.0",
+    "consumption": "228.9"
+  },
+  "revision_2024_gwh": {
+    "generation": "42.4",
+    "imports": "0.0",
+    "exports": "-0.5",
+    "own_use": "0.3",
+    "losses": "0.0",
+    "consumption": "42.5"
+  },
+  "ben2025_indicators": {
+    "solar_generation": "14.6",
+    "peak_demand": "5280",
+    "ida_consumption": "5464.9",
+    "argentina_exports": "5083.7",
+    "brazil_exports": "10455.6"
+  },
+  "ida_share_unspecified_percent": "80.41347851677457327839905827",
+  "ida_share_final_consumption_percent": "24.27819365156933739087940647",
+  "method_note": "The 2020-2025 level series selects the latest BEN observation available for each year. Annual changes are calculated only within each edition's comparative table. Detailed sector changes are retained for 2023-2025 because earlier classifications and statistical boundaries are not fully comparable."
+}

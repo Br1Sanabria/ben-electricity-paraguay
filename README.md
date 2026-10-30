@@ -107,7 +107,6 @@ El comando vuelve a exportar `Datos BEN` desde el libro fuente, genera `data/sou
 - [BEN 2024, informe y resumen estadístico](https://minasyenergia.mopc.gov.py/pdf/balance2024/BEN%202024_Paraguay.pdf)
 - [Comunicación del MOPC sobre los resultados de BEN 2025](https://mopc.gov.py/consumo-de-electricidad-supera-por-primera-vez-al-de-biomasa-solida-en-2025/)
 
-## Publicación en GitHub
+## Repositorio GitHub
 
-El directorio es un repositorio Git local. El acceso de GitHub todavía debe conectarse y el destino requiere definir cuenta u organización, nombre y visibilidad. El nombre sugerido es `ben-electricidad-paraguay`.
-
+El proyecto se publica en [Br1Sanabria/ben-electricity-paraguay](https://github.com/Br1Sanabria/ben-electricity-paraguay), un repositorio público. Esta copia incluye la base SQLite, los CSV de consulta, el esquema, los scripts de reconstrucción y los insumos conservados para trazabilidad.
