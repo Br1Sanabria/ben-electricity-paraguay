@@ -29,6 +29,7 @@ The source extraction includes the 2019–2020 pair from BEN 2020 and annual pai
 | `sources/source_extraction_ben_electricity.xlsx` | Original supplied workbook, retained unchanged for provenance. |
 | `schema.sql` | SQLite relational schema. |
 | `scripts/` | Extraction, translation, and database rebuild scripts. |
+| `COMMAND_GUIDE.md` | Intent and captured output for every README command and SQL example. |
 
 Documentation, identifiers, database column names, analysis labels, and operational notes are in English. Fields ending in `_original` preserve the Spanish wording found in the source material. `label_en` provides an English translation alongside each published comparison label.
 
@@ -90,6 +91,8 @@ python scripts/build_database.py
 ```
 
 The command translates the maintained metadata and analysis notes, exports the `Datos BEN` worksheet from the original workbook to `data/source/published_comparisons.csv`, and rebuilds `db/ben_electricity.sqlite` from the repository’s CSV and JSON files.
+
+See [`COMMAND_GUIDE.md`](COMMAND_GUIDE.md) for the intent and verified output of this command and each SQL example above.
 
 ## Provenance and treatment
 
